@@ -1,12 +1,14 @@
-package com.boorulyzer;
+package boorulyzer;
 
 public class Boorulyzer
 {
+    
+    public static AppWindow Appwindow;
 
     public Boorulyzer()
     {
 
-        AppWindow Appwindow = new AppWindow();
+        Appwindow = new AppWindow();
 
     }
 
