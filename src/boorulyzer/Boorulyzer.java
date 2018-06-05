@@ -1,4 +1,4 @@
-package com.boorulyzer;
+package boorulyzer;
 
 public class Boorulyzer
 {

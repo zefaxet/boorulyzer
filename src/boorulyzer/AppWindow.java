@@ -1,8 +1,8 @@
-package com.boorulyzer;
+package boorulyzer;
+
+import widgets.MenuBar;
 
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
 
 public class AppWindow extends JFrame
 {
@@ -14,13 +14,15 @@ public class AppWindow extends JFrame
     public AppWindow()
     {
 
+    	/*INITIALIZE WINDOW*/
         super("BOORULYZER");
     	WIDTH = 1200;
     	HEIGHT = 800;
 	
-	
+		/*INITIALIZE WIDGETS*/
 		menuBar = new MenuBar();
-        
+  
+		/*ADD WIDGETS*/
         add(menuBar);
 
 		setSize(WIDTH,HEIGHT);

@@ -1,4 +1,4 @@
-package com.boorulyzer;
+package boorulyzer;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
