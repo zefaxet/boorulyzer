@@ -1,15 +1,17 @@
 package boorulyzer;
 
-import widgets.MenuBar;
+import widgets.menu_bar.menu_items.MenuBar;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class AppWindow extends JFrame
 {
 
-	public static MenuBar menuBar;
 	public static int WIDTH;
 	public static int HEIGHT;
+	
+	private MenuBar menuBar;
 
     public AppWindow()
     {
@@ -23,10 +25,10 @@ public class AppWindow extends JFrame
 		menuBar = new MenuBar();
   
 		/*ADD WIDGETS*/
-        add(menuBar);
+        add(menuBar, BorderLayout.NORTH);
 
 		setSize(WIDTH,HEIGHT);
-        setLayout(null);
+        setLayout(new BorderLayout());
         setVisible(true);
 
     }
